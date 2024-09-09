@@ -1,0 +1,53 @@
+/* App.css */
+
+/* Container for the entire app */
+.app-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Section for file upload */
+.upload-section {
+  margin-bottom: 20px;
+}
+
+/* Chat history container */
+.chat-history {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Individual chat bubble */
+.chat-bubble {
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #e6f7ff;
+}
+
+/* Section for input box and submit button */
+.input-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the input box */
+.input-box {
+  width: 80%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+}

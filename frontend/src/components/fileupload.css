@@ -1,0 +1,22 @@
+.file-upload-container {
+  margin-bottom: 20px;
+}
+
+.upload-input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.upload-button {
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.upload-status {
+  margin-top: 10px;
+  color: #4A90E2;
+}

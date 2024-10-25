@@ -2,3 +2,4 @@ Flask
 PyMuPDF
 langchain-groq
 langchain-core
+python-dotenv

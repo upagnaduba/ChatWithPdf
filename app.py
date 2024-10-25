@@ -2,11 +2,12 @@ import streamlit as st
 import fitz  # PyMuPDF
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
-
+from dotenv import load_dotenv
 # Initialize the ChatGroq model
+load_dotenv()
 llm = ChatGroq(
     temperature=0,
-    groq_api_key='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',
+    groq_api_key=os.getenv('api_key'),
     model_name="llama-3.1-70b-versatile"
 )
 

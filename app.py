@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 import fitz  # PyMuPDF
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate

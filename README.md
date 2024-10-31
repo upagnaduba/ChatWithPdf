@@ -2,7 +2,7 @@
 
 
 This Streamlit-based application provides a conversational interface for interacting with PDF documents. By uploading a PDF, users can ask questions based on the content, and the app will provide accurate responses using the ChatGroq large language model.
-## Link to th Website:
+## Link to the Website:
 https://chatwithapdf.streamlit.app/
 
 ---
@@ -29,8 +29,8 @@ https://chatwithapdf.streamlit.app/
 
 1. **Clone this repository**:
     ```bash
-    git clone https://github.com/yourusername/chat-with-pdf.git
-    cd chat-with-pdf
+    git clone https://github.com/upagnaduba/ChatWithPdf.git
+    cd ChatWithPdf
     ```
 
 2. **Install required libraries**:
@@ -39,7 +39,7 @@ https://chatwithapdf.streamlit.app/
     ```
 
 3. **Set up the ChatGroq API key**:
-   Replace the placeholder `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` in the script with your actual API key for the ChatGroq service.
+   Replace the API_Key in the script with your actual API key for the ChatGroq service.
 
 ---
 
